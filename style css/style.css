@@ -210,6 +210,28 @@ ul li a {
   gap: 26px;
 }
 
+.product_btn {
+  background: #000000;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.product_btn i {
+  margin-left: 5px;
+  text-align: center;
+}
+
+.product_btn:hover {
+  color: #FF136F;
+  border: 1px solid black;
+  background: transparent;
+  transition: 0.5s;
+}
+
 .produt_card_container .card {
   width: 360px;
   background: #fff;
@@ -220,10 +242,11 @@ ul li a {
   gap: 26px;
 }
 
-.card{
+.card {
   align-items: center;
 }
-.card p{
+
+.card p {
   align-items: center;
   text-align: center;
 }
